@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+    <!-- Uses radio buttons to simulate tabs -->
+    
+   <RadioGroup
+        android:id="@+id/radio_tabber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+        <RadioButton android:id="@+id/rad_tab1"
+             android:layout_width="0dp" 
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Tab 1" 
+             android:button="@null"
+             android:background="@drawable/radio_tab"
+             android:textColor="#F6F6CC"
+             android:gravity="center"
+            />
+        <RadioButton android:id="@+id/rad_tab2"
+             android:layout_width="0dp" 
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Tab 2" 
+             android:button="@null"
+             android:background="@drawable/radio_tab"
+             android:textColor="#F6F6CC"
+             android:gravity="center"
+            />
+        <RadioButton android:id="@+id/rad_tab3"
+             android:layout_width="0dp" 
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Tab 3" 
+             android:button="@null"
+             android:background="@drawable/radio_tab"
+             android:textColor="#F6F6CC"
+             android:gravity="center"
+            />
+
+        
+    </RadioGroup>
+    
+    <ViewFlipper android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_frame">
+        <include android:id="@+id/tab1" layout="@layout/tab1_layout"/>
+        <include android:id="@+id/tab2" layout="@layout/tab2_layout"/>
+        <include android:id="@+id/tab3" layout="@layout/tab3_layout"/>
+    </ViewFlipper>
+
+</LinearLayout>

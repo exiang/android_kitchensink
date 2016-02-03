@@ -1,0 +1,153 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobeegen.kitchensink"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+	<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+	<uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />	
+	<uses-permission android:name="android.permission.ACCESS_GPS" />
+	<uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />	
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.NFC" />
+	<uses-feature android:name="android.hardware.nfc" android:required="true" />
+	
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<permission android:name="com.mobeegen.kitchensink.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="com.mobeegen.kitchensink.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	
+	 <uses-permission android:name="android.permission.CAMERA" />
+	 <uses-feature android:name="android.hardware.camera" />
+	 <uses-feature android:name="android.hardware.camera.autofocus" />
+	 <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+	
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        
+        <uses-library android:name="com.google.android.maps" />
+        
+         <activity android:label="Door" android:name="DoorActivity">
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+         
+        
+        <activity android:label="Versi" android:name="VersiGroupActivity" />         
+		<activity android:name="com.mobeegen.VersiActivity" />
+		<activity android:label="Insert Version Check" android:name="VersiInsertActivity" />
+		<activity android:label="Manual Version Check" android:name="VersiManualActivity" />
+		
+		<activity android:label="Html TextView" android:name="HtmlTextViewActivity" />       
+		<activity android:label="Read Twitter" android:name="ReadTwitterActivity" />
+		<activity android:label="Grab, Use, Cache" android:name="GrabUseCacheActivity" />
+		<activity android:label="Custom Button" android:name="CustomButtonActivity" />
+		<activity android:label="Custom Title Bar" android:name="CustomTitleBarActivity" />
+		<activity android:label="Custom Title Bar 1" android:name="CustomTitleBar1Activity" />
+		<activity android:label="Custom Title Bar 2" android:name="CustomTitleBar2Activity" android:theme="@style/CustomTitleBarTheme" />
+		<activity android:label="Image Zoomer" android:name="ImageZoomerActivity" />         
+		<activity android:label="Tabs" android:name="RadioTabActivity" />
+		<activity android:label="Slider" android:name="SliderActivity" />
+		<activity android:label="Image Zoomer Webview" android:name="ImageZoomerWebviewActivity" />
+		<activity android:label="Activity w Parameters" android:name="ParamsActActivity" />
+		<activity android:label="Webview" android:name="WebviewActivity" />
+		<activity android:label="Device Info" android:name="DeviceInfoActivity" />
+		<activity android:label="Wallpaper" android:name="WallpaperActivity" />
+		<activity android:label="Pull to Refresh Feed" android:name="PullRefreshFeedActivity" />
+		<activity android:label="Interactive Buttons" android:name="InteractiveButtonActivity" />
+		<activity android:label="Load Image from Web" android:name="LoadImageFromWebActivity" />
+		<activity android:label="Rounded Corner Image from Web" android:name="RoundedCornerImageFromWebActivity" />
+		
+        <activity android:label="Google Map" android:name="GoogleMapActivity" />
+        <activity android:label="Google Map Basic" android:name="GoogleMap1Activity" android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:label="Google Map GPS Location" android:name="GoogleMap2Activity" android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:label="Google Map Direction" android:name="GoogleMap3Activity" android:theme="@android:style/Theme.NoTitleBar" />
+        
+        
+        <activity android:label="NFC" android:name="NfcActivity" />
+        <activity android:label="NFC Write" android:name="NfcWriteActivity">
+			<intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+		<activity android:label="NFC Read" android:name="NfcReadActivity" android:launchMode="singleTop" android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+				<data android:mimeType="application/vnd.com.mobeegen.kitchensink"/>
+			</intent-filter>
+		</activity>
+		
+		<activity android:label="GCM" android:name="GcmActivity" />
+		<activity android:label="GCM Server" android:name="GcmServerActivity" />
+		<activity android:label="GCM Server Using Lib" android:name="GcmServerLibActivity" />
+		<receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+		    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		    <category android:name="com.mobeegen.kitchensink" />
+		  </intent-filter>
+		</receiver>
+		<service android:name=".GCMIntentService" /> 
+		<activity android:name="com.mobeegen.NotificationActivity" />
+		
+		<activity android:label="Scale Image" android:name="ScaleImageActivity" />
+		<activity android:label="Play Sound" android:name="PlaySoundActivity" />
+		<activity android:label="View PDF" android:name="ViewPdfActivity" />
+		<activity android:label="Geocoder" android:name="GeocoderActivity" />
+		<activity android:label="Layer Image" android:name="LayerImageActivity" />
+		<activity android:label="Location Providers" android:name="GetLocationActivity" />
+		<activity android:label="SQL" android:name="SQLActivity" />
+		<activity android:label="Grid Image" android:name="GridImageActivity" />
+		<activity android:label="Local Resource Gallery" android:name="GalleryLocalActivity" />
+		
+		<activity android:label="Camera" android:name="CameraActivity" />
+		<activity android:label="Camera Front" android:name="CameraFrontActivity" />
+		<activity android:label="Camera View" android:name="CameraViewActivity" />
+		
+		<activity android:label="Ribbon Menu" android:name="RibbonMenuActivity" />
+		<activity android:label="Http Auth Json" android:name="HttpAuthJsonActivity" />
+		<activity android:label="Http Session" android:name="HttpSessionActivity" />
+		<activity android:label="Google Analytics" android:name="GoogleAnalyticsActivity" />
+		
+		<activity android:label="Chart" android:name="ChartActivity" />
+		<activity android:label="First Chart" android:name="FirstChartActivity" />
+		<activity android:label="AC Chart - Pie" android:name="AcChartPieActivity" />
+		<activity android:label="AC Chart - Bar" android:name="AcChartBarActivity" />
+		<activity android:label="AC Chart - Multi Bar" android:name="AcChartMultiBarActivity" />
+		<activity android:label="Ai Chart - Pie" android:name="AiChartPieActivity" />
+		
+		<activity android:label="Tabular" android:name="TabularActivity" />
+		<activity android:label="Tabular Raw Html" android:name="TabularRawHtmlActivity" />
+		
+		<activity android:label="Canvas Drawing" android:name="CanvasDrawActivity" />
+		<activity android:label="Text 2 Speech" android:name="Text2SpeechActivity" />
+		
+		<activity android:label="Json Object-Array" android:name="JsonObjectArrayActivity" />
+        
+    </application>
+
+</manifest>

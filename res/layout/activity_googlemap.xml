@@ -1,0 +1,29 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/googleMap1Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Basic" />
+
+        <Button
+            android:id="@+id/googleMap2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="GPS" />
+        
+        <Button
+            android:id="@+id/googleMap3Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Direction"
+            android:enabled="false" />
+        
+    </LinearLayout>

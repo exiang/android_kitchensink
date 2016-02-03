@@ -1,0 +1,28 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cam1Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Front Camera" />
+
+        <Button
+            android:id="@+id/cam2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Front Camera 2 Web" />
+        
+        <Button
+            android:id="@+id/cam3Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Camera View with Overlay" />
+        
+    </LinearLayout>

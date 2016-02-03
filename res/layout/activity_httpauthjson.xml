@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ActivityHttpAuthJsonLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:gravity="top"
+	android:orientation="vertical" >
+
+     <Button
+         android:id="@+id/loopjHttpJsonBtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Http" />
+     <Button
+         android:id="@+id/loopjHttpsJsonBtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Https" />
+       
+     <Button
+         android:id="@+id/loopjHttpAuthJsonBtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Http Auth" />
+     
+	<Button
+         android:id="@+id/loopjHttpsAuthJsonBtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Https Auth" />
+	
+     
+	<Button
+         android:id="@+id/loopjHttpDecryptJsonBtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Decrypt Download" />
+
+	<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="top|left"
+	    android:scrollbars="vertical"
+	    android:text="" />
+	 </ScrollView>
+
+ </LinearLayout>

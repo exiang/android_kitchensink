@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scroll" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+ <LinearLayout
+	android:id="@+id/ActivityDoorLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:gravity="top"
+	android:orientation="vertical" >
+     
+     <Button android:id="@+id/versiGroupBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Versi" 
+		android:layout_margin="3dp" />
+      
+     <Button android:id="@+id/cameraBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Camera" 
+		android:layout_margin="3dp" />
+
+     <Button android:id="@+id/htmlInTextViewBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="HTML in Textview" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/customButtonBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Custom Button" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/customTitleBarBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Custom Title Bar" 
+		android:layout_margin="3dp" />
+          
+     <Button android:id="@+id/imageZoomerBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Image Zoomer" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/imageZoomerWebviewBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Image Zoomer using Webview" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/googleMapBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Google Map" 
+		android:layout_margin="3dp" 
+		android:enabled="true" />
+     
+     <Button android:id="@+id/pullRefreshFeedBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Pull Refresh Feed" 
+		android:layout_margin="3dp" />
+    
+     <Button android:id="@+id/jsonTwitterBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="JSON Twitter" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/grabUseCacheBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Grab, Use &amp; Cache"  
+		android:enabled="true" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/tabBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Tabs" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/sliderBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Slider" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/paramsActBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Activity w Parameters" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/deviceInfoBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Device Info" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/wallpaperBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Wallpaper" 
+		android:layout_margin="3dp" />
+	
+     
+     <Button android:id="@+id/interactiveBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Interactive Button" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/loadImageFromWebBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Load Image from Web" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/roundedCornerImageFromWebBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Rounded Corner Image from Web" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/nfcBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="NFC" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/gcmBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="GCM" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/gcmServerBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="GCM with Server (Notify)" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/gcmServerLibBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="GCM with Server using Lib (Notify)" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/scaleImageBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Scale Image" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/playSoundBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Play Sound" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/viewPdfBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="View PDF" 
+		android:layout_margin="3dp" />
+
+     <Button android:id="@+id/layerImageBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Layer Image" 
+		android:layout_margin="3dp" />
+
+     <Button android:id="@+id/geocoderBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Geocoder" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/getLocBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Location Providers" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/sqlBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="SQLite" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/gridImageBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Grid Image" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/galleryLocalBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Local Resource Gallery" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/ribbonMenuBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Ribbon Menu" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/httpAuthJsonBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Http Auth Json" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/httpSessionBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Http Session" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/googleAnalyticsBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Google Analytics" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/chartBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Chart" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/tabularBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Tabular" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/tabularRawHtmlBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Tabular Raw HTML" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/canvasDrawBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Canvas Draw" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/text2SpeechBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Text to Speech" 
+		android:layout_margin="3dp" />
+     
+     <Button android:id="@+id/jsonObjectArrayBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Json Object Array" 
+		android:layout_margin="3dp" />
+ </LinearLayout>
+</ScrollView>

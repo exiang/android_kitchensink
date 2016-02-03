@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <EditText
+	        android:id="@+id/et_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="id"
+	        android:inputType="number"
+	        android:text="0"
+	        tools:ignore="HardcodedText" />
+	
+	    <EditText
+	        android:id="@+id/et_item1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="item1"
+	        tools:ignore="HardcodedText" />
+	
+	    <EditText
+	        android:id="@+id/et_item2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="item2"
+	        tools:ignore="HardcodedText" />
+	    
+	    <EditText
+	        android:id="@+id/et_itemnum"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="itemnum"
+	        android:inputType="number"
+	        android:text="0"
+	        tools:ignore="HardcodedText" />	
+	    <Button
+	        android:id="@+id/btn_add"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Add (ignore ID)"
+	        tools:ignore="HardcodedText" />
+	    
+	    <Button
+	        android:id="@+id/btn_update"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Update"
+	        tools:ignore="HardcodedText" />
+	    
+	    <Button
+	        android:id="@+id/btn_load"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Get Data"
+	        tools:ignore="HardcodedText" />
+	    
+	    <Button
+	        android:id="@+id/btn_delete"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Delete"
+	        tools:ignore="HardcodedText" />
+	    
+	    <Button
+	        android:id="@+id/btn_getcount"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="GetCount"
+	        tools:ignore="HardcodedText" />
+	    
+	    <Button
+	        android:id="@+id/btn_exists"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Exists?"
+	        tools:ignore="HardcodedText" />
+	    
+	    <Button 
+	        android:id="@+id/btn_deldatabase"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Delete Database"
+	        tools:ignore="HardcodedText" />
+	    
+	
+	</LinearLayout>
+</ScrollView>

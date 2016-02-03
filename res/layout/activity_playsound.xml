@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scroll" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/ActivityPlaySoundLayout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#ffffff"
+     android:gravity="top"
+     android:orientation="vertical">
+
+     
+     <Button android:id="@+id/playMp3Btn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Play MP3" 
+		android:layout_margin="3dp" />
+     
+     
+     <Button android:id="@+id/playWavBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Play Wav" 
+		android:layout_margin="3dp" />
+      
+ </LinearLayout>
+</ScrollView>

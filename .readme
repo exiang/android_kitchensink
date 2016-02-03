@@ -1,0 +1,25 @@
+===== Google Map Key =====
+To use native google map, you will need to have a valid google map key.
+You may obtain the key here: https://developers.google.com/android/maps-api-signup
+
+Note that you will need to insert the md5 key in the process.
+A md5 key can be generated from your .keystore file. 
+
+We have 2 .keystore file. 1 for release to the app market, which normally located under project_dir/_marketplace; and another one would be our system default debug key.
+When you are running the app from eclipse, you will be using this system default debug key. It is located in "C:\Users\exiang\.android\debug.keystore" in this case.
+To obtain it, at eclipse, goto window->pref->android->build
+
+Next, run this in command line (remember to replace with your own path) to get the md5 from your debug key (To get the md5 for release keystore, just change the path again):
+<code>keytool -list -alias androiddebugkey -keystore C:\Users\exiang\.android\debug.keystore -storepass android -keypass android</code>
+
+Then, you will get:
+<code>
+androiddebugkey, Dec 18, 2011, PrivateKeyEntry,
+Certificate fingerprint (MD5): 3E:58:32:CC:11:D3:54:28:A1:4A:67:A7:0B:4E:8C:4F
+</code>
+
+3E:58:32:CC:11:D3:54:28:A1:4A:67:A7:0B:4E:8C:4F would be your debug key
+
+LATEST UPDATE: 
+or easier, just edit and call _marketplace\keystore.gethash.bat from cmd
+

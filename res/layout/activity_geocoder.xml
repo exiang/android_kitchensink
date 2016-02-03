@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/padding_medium"
+        tools:ignore="HardcodedText" />
+    
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_centerHorizontal="true"
+        android:hint="latitude"
+        android:inputType="numberDecimal"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/latitude"
+        android:layout_centerHorizontal="true"
+        android:hint="longitude"
+        android:inputType="numberDecimal"
+        tools:ignore="HardcodedText" />
+    
+    <Button
+        android:id="@+id/get_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Get Address From Coordinates"
+        android:layout_below="@id/longitude" />
+    
+    <Button
+        android:id="@+id/get_coordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Get Coordinates From Address"
+        android:layout_below="@id/get_address" />
+    
+    <Button
+        android:id="@+id/get_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Get My Location"
+        android:layout_below="@id/get_coordinate" />
+
+</RelativeLayout>

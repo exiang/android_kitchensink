@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light" />
+    
+    <style name="CustomWindowTitleBarBackground">
+        <item name="android:background">#32ff31</item>
+    </style>
+    
+    <style name="CustomTitleBarTheme" parent="@style/AppTheme">
+        <item name="android:windowTitleSize">48dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBarBackground</item>
+    </style>
+    
+</resources>

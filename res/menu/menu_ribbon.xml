@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ribbon_menu_home" android:title="Home" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home2" android:title="Home2" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home3" android:title="Home3" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home4" android:title="Home4" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home5" android:title="Home5" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home6" android:title="Home6" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home7" android:title="Home7" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home8" android:title="Home8" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home9" android:title="Home9" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home10" android:title="Home10" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home11" android:title="Home11" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home12" android:title="Home12" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home13" android:title="Home13" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_menu_home14" android:title="Home14" android:icon="@drawable/ic_launcher"></item>   
+</menu>
+

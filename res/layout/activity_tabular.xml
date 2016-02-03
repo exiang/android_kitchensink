@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutTabular"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/toggleButtonOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overview" />
+        
+         <ToggleButton
+            android:id="@+id/toggleButtonResponsive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Responsive" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webViewTabular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+	
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ActivityCustomButtonLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:gravity="top"
+	android:orientation="vertical" >
+
+     <Button android:id="@+id/textBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Normal button" 
+		android:layout_margin="5dp" />
+
+     <Button
+         android:id="@+id/iconTextBtn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button1"
+         android:drawableLeft="@drawable/ic_star"
+         android:linksClickable="true"
+         android:text="Button w icon and text"
+         android:textColor="#FFFFFF" 
+         android:clickable="true" 
+         android:layout_margin="5dp" />
+	
+	<Button android:id="@+id/textBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Button w text only"
+		android:background="@drawable/button1"
+		android:textColor="#ffffffff"
+		android:layout_margin="5dp" />
+	
+	<Button android:id="@+id/textBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Disabled"
+		android:background="@drawable/button1"
+		android:textColor="#ffffffff"
+		android:enabled="false"
+		android:layout_margin="5dp" />
+	
+	<ImageButton android:id="@+id/iconBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="Button w icon only"
+		android:src="@drawable/ic_star"
+		android:background="@drawable/button1"
+		android:textColor="#ffffffff"
+		android:layout_margin="5dp" />
+	
+ </LinearLayout>

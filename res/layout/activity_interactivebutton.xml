@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ActivityInteractiveButtonLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff" 
+	android:gravity="top"
+	android:orientation="vertical" >
+     
+     <Button android:id="@+id/callBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Call 0126130617" 
+		android:layout_margin="3dp" />
+     
+ 	<Button android:id="@+id/smsBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="SMS 0126130617" 
+		android:layout_margin="3dp" />     
+
+ 	<Button android:id="@+id/emailBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="email exiang and muz" 
+		android:layout_margin="3dp" />  
+		
+ 	<Button android:id="@+id/webBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="website" 
+		android:layout_margin="3dp" />
+ </LinearLayout>

@@ -1,0 +1,42 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/firstChartBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="First Chart" />
+
+        <Button
+            android:id="@+id/acChartPieBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="AC Chart - Pie" />
+        
+        <Button
+            android:id="@+id/acChartBarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="AC Chart - Bar" />
+        
+        <Button
+            android:id="@+id/acChartMultiBarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="AC Chart - Multi Bar" />
+        
+        <Button
+            android:id="@+id/aiChartPieBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Ai Chart - Pie" />
+        
+    </LinearLayout>

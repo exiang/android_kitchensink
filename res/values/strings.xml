@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="app_name">Kitchensink</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="googlemap_api_key_release">0C_abRsbXW9YR9zCDxGDXwzLOXWyR9SCeMFe8Uw</string>
+    <string name="googlemap_api_key_debug">0C_abRsbXW9aRwrmBzWpJf9OM0ByHmqiXsgQLoA</string>
+   
+	
+    <string name="html1"><![CDATA[
+        <h1>HTML in textview</h1>
+        <p>Although this is not recommended, but worth trying...</p>
+        
+        <h2>Paragraph and line break</h2>
+        <p>Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.</p>
+        <p style="text-align:right">Proin dolor lectus, tincidunt sit amet posuere vitae, ultrices ut lorem. Cras at semper risus. </p>
+        <center>Ut ultrices cursus augue in luctus. Duis iaculis mi sed urna mattis vel ullamcorper elit lacinia.</center>
+        
+        <h2>Font style</h2>
+        <p><b>Bold</b>, <i>Itallic</i>, <u>Underline</u> are supported.</p>
+        
+        <h2>List</h2>
+        <p><ul>
+        	<li>item a</li>
+        	<li>item b</li>
+        	<li>item c
+        		<ul>
+        			<li>item c1</li>
+        			<li>item c2</li>
+        		</ul>
+        	</li>
+        </ul></p>
+        <p><ol>
+        	<li>item a</li>
+        	<li>item b</li>
+        	<li>item c
+        		<ol>
+        			<li>item c1</li>
+        			<li>item c2</li>
+        		</ol>
+        	</li>
+        </ol></p>
+        
+        <h2>Html links</h2>
+        <p><a href="http://www.google.com">Google</a><p>
+        
+        <h2>UTF8</h2>
+        <p>你好吗?</p>
+        
+        <h2>Horizontal line</h2>
+        <hr />
+        
+        <h2>Table</h2>
+		<table border="1" id="normalTable">
+		  <thead>
+		    <tr>
+		      <th></th>
+		      <th>Month</th>
+		      <th>Savings</th>
+		    </tr>
+		  </thead>
+		  <tfoot>
+		    <tr>
+		      <td colspan="2">Sum</td>
+		      <td>$180</td>
+		    </tr>
+		  </tfoot>
+		  <tbody>
+		    <tr>
+		      <th rowspan="2">Sales</th>
+		      <td>January</td>
+		      <td>$100</td>
+		    </tr>
+		    <tr>
+		      <td>February</td>
+		      <td>$80</td>
+		    </tr>
+		    <tr>
+		      <td colspan="3">No Data</td>
+		    </tr>
+		  </tbody>
+		</table>
+		
+		<h2>Image</h2>
+		<img src="http://htmlsample.yeesiang.com/sample.png" width="320" />
+    ]]></string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis risus, luctus eget placerat rhoncus, tincidunt eget metus. Aliquam faucibus ultricies ligula, ut condimentum arcu venenatis et. Integer sit amet neque mauris, eu condimentum felis. Curabitur eu erat lectus, tempor gravida justo. Morbi mi tellus, vestibulum a rutrum quis, luctus feugiat quam. Morbi elementum fermentum enim at sagittis. Nullam lacus eros, iaculis sed pharetra eu, laoreet non mauris.\n\nVestibulum non tortor ac tortor elementum ultrices. Sed ut risus risus, eu pharetra magna. Cras commodo leo eu nunc malesuada at sollicitudin eros pretium. Aenean tristique sagittis quam sed posuere. Aenean vel arcu et lacus commodo lobortis. Aliquam id enim neque. Maecenas ante nibh, auctor id vehicula sit amet, tristique et lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</string>
+    <string name="lorem_ipsum1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non magna a dolor euismod pulvinar id ac massa. Fusce id fringilla sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed non lorem ligula. Curabitur consequat scelerisque tortor non iaculis. Suspendisse ultrices, tortor a aliquam tempus, metus nibh sollicitudin neque, tempor commodo tellus dolor at erat. Ut scelerisque, velit eu pretium porttitor, magna purus aliquet eros, nec feugiat lacus risus vitae dolor. Praesent nec nulla et sem hendrerit scelerisque non vel purus. In leo neque, placerat sit amet adipiscing a, suscipit vitae dui. Ut a odio eu est pharetra venenatis a et dolor. Nunc malesuada lacinia luctus. Etiam tellus turpis, blandit nec condimentum blandit, molestie sed quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nVivamus ligula libero, ultrices eu consequat at, posuere nec ante. Duis vulputate lobortis est, sit amet tincidunt massa dictum eu. Phasellus mattis, tellus non imperdiet viverra, eros erat placerat magna, in luctus quam nisi in metus. Curabitur sit amet nunc eu erat porta rhoncus a vitae nibh. Fusce gravida felis at libero porttitor congue. Aenean eu pellentesque enim. Phasellus imperdiet mi ac velit volutpat eu condimentum mauris suscipit. Nam imperdiet, lorem nec adipiscing congue, quam velit sagittis eros, id convallis erat felis vel tellus. Mauris sodales lobortis pharetra. Duis aliquet lectus non lorem suscipit laoreet. In urna elit, sodales a tristique eleifend, gravida id urna. Pellentesque eget feugiat tellus. Vivamus libero massa, viverra quis rhoncus quis, faucibus quis nisi. Proin pulvinar diam nec ante tempor ornare. Vivamus tortor est, scelerisque eget auctor eget, posuere in turpis. Sed lectus lorem, vestibulum et fringilla a, dapibus nec orci.</string>
+    <string name="lorem_ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at mi nibh. Nulla facilisi. Nam ut nibh et tortor sollicitudin cursus. Duis et sem sed lacus suscipit porttitor. Suspendisse eget pharetra magna. Nunc quam metus, consequat aliquam vestibulum sit amet, sollicitudin et turpis. Suspendisse gravida interdum sem sed faucibus. Duis turpis felis, condimentum non bibendum at, malesuada vitae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sapien velit, ornare eget lacinia ac, commodo quis diam. Donec fermentum, velit vitae posuere tempus, ante nisi vestibulum dolor, eu lobortis dolor neque at sem. Nulla ac leo egestas urna aliquet consectetur.\n\nSuspendisse a ornare purus. Nulla in quam urna, id consequat tortor. Aliquam sit amet lorem vitae leo cursus sagittis ac at urna. Aenean tellus dolor, mollis at gravida feugiat, varius vitae sapien. Praesent sed sem lectus, quis varius purus. Etiam laoreet mattis nibh ac posuere. Mauris sapien orci, vulputate porttitor adipiscing cursus, scelerisque vitae diam. Nam cursus aliquam aliquam. Vivamus accumsan egestas quam, elementum gravida tortor fermentum vel. Nulla facilisi. Pellentesque sed venenatis leo. Fusce dignissim auctor nisi, nec pharetra mauris imperdiet sed.</string>
+
+</resources>

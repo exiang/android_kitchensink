@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Current Version Code" />
+
+    <EditText
+        android:id="@+id/etVersionCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:editable="false"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Remote Version Code" />
+
+    <EditText
+        android:id="@+id/etRemoteVersionCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:editable="false"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnGetRemoteVersionCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Get Remote Version" />
+    
+    <Button
+        android:id="@+id/btnCheckUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Check for Update (no force update, not silence)" />
+    
+    <Button
+        android:id="@+id/btnCheckUpdate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Check for Update (force update, not silence)" />
+
+</LinearLayout>
