@@ -1,0 +1,4 @@
+AuthUserFile /var/vwww/test/secure/.htpasswd
+AuthName "Admin Only" 
+AuthType Basic
+require valid-user 
